@@ -4,7 +4,7 @@
 //move
 scr_collision();
 scr_move();
-depth = -y;
+depth = -y * 2;
 
 if(key_left + key_right != 0)
 {
